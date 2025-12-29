@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="fr" data-bs-theme="light">
+<head>
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+            background-color: var(--bs-body-bg);
+            color: var(--bs-body-color);
+            height: 100vh;
+            margin: 0;
+        }
+        .navbar {
+            z-index: 1020;
+            background-color: #1a3d7c !important;
+        }
+        .btn-modern {
+            border-radius: 30px;
+            transition: background-color .3s;
+        }
+        #main-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 70px);
+            padding: 1rem;
+        }
+        .menu-central {
+            width: 100%;
+            max-width: 360px;
+        }
+        .card-menu {
+            border-radius: .75rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        .card-menu .card-header {
+            background-color: var(--bs-primary);
+            color: #fff;
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+        .card-menu .list-group-item {
+            border: none;
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+        .card-menu .list-group-item i {
+            font-size: 1.1rem;
+            margin-right: .75rem;
+            width: 1.5rem;
+            text-align: center;
+        }
+        .card-menu .list-group-item:hover {
+            background-color: var(--bs-primary-bg-subtle);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('root', sorting=None) }}">
+                <img src="{{ url_for('static', filename='images/logo.gif') }}" height="40" alt="Logo">
+            </a>
+            <button class="btn btn-outline-light me-3" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="d-flex flex-grow-1 justify-content-end align-items-center">
+                <a href="/" class="btn btn-light btn-modern">
+                    <i class="fas fa-arrow-left me-1"></i> Retour
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-content">
+        <div class="menu-central">
+            <div class="card card-menu">
+                <div class="card-header text-center">
+                    <i class="fas fa-user-circle me-2"></i>Mon Espace
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" onclick="location.href='/account/profile/view'">
+                        <i class="fas fa-eye"></i>Voir le Profil
+                    </li>
+                    <li class="list-group-item" onclick="location.href='/account/profile/edit'">
+                        <i class="fas fa-edit"></i>Modifier le Profil
+                    </li>
+                    <li class="list-group-item" onclick="location.href='/account/profile/changePassword'">
+                        <i class="fas fa-key"></i>Changer le Mot de Passe
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', () => {
+            const html = document.documentElement;
+            const next = html.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-bs-theme', next);
+            thisIcon = next === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+            document.getElementById('theme-toggle').innerHTML = thisIcon;
+        });
+    </script>
+</body>
+</html>

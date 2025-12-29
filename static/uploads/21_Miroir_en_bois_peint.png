@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" data-wf-site="5694905afd0ff48f10113173" data-wf-page="56ab40f21473b0ad48543185">
+<!-- protection -->
+
+<head>
+	<title>Proantic: Proantic - 404</title>
+    <!-- recaptcha Google I am not a robot-->
+    
+    <!-- meta -->
+    <!-- content-language, Keyword, Description -->
+             <meta name="description" content="Proantic.com: Le site des antiquaires professionnels, spécialisé dans l'antiquité en ligne, vous offre la possibilité de consulter un vaste choix de meubles et d'objets d'art anciens"/>
+   	<!-- Author, copyright, geo.region, content-style-type, content-script-type, og:title, viewport, generator -->
+	<meta name="author" content="Proantic.com"/>
+	<meta name="copyright" content="Copyright 2009 Proantic.com"/>
+	<meta name="geo.region" content="fr"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="p:domain_verify" content="921def7b51b6f90e812e046715289a09"/>
+    <meta charset="UTF-8">
+
+    <!-- Meta Open graph Protocol -->
+    	<!-- robots => noindex -->
+		<!-- google site verification etc... -->
+	<meta name="google-site-verification" content="9jBpzsMQ8N9hEVHvU8sg9TgUakCZ3pJI9qmdkxmgKuo"/>
+	<meta name="msvalidate.01" content="586D7188B1FC2797B135B43D3A7B843D"/>
+	<meta name="y_key" content="99d8b9a36f26acd1"/>
+	<meta name="p:domain_verify" content="53cf728636a5cb2026bce5a3f8d8c34b"/>
+	<meta name="msvalidate.01" content="74AF162F52B3834C1E86594FA1F3C957"/>
+	<!-- pages css sur le serveur -->
+    <!--   Speedup le chargement -->
+    <link rel="dns-prefetch" href="https://cdn-images.mailchimp.com">
+    <link rel="preconnect" href="https://cdn-images.mailchimp.com" crossorigin>
+
+    <link rel="stylesheet" type="text/css" href="https://www.proantic.com/css/A.googlefonts.css,,qtimestampcssproantic+normalize_minify.css+webflow_minify.css,Mcc.71KAJ4iUVS.css.pagespeed.cf.argL22mL8H.css"/>
+    
+	
+    <link rel="stylesheet" type="text/css" href="https://www.proantic.com/css/A.sweetalert2-v1-2.css+carrousel-09.css,,qtimestampcssproantic+fontawesome.min.css+regular.min.css+thin.min.css,Mcc.ZSqTycfhlq.css.pagespeed.cf.59P_56I8JF.css" media="all"/>
+    
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://www.proantic.com/css/A.sharp-solid.min.css+light.min.css,Mcc.4mM6ZiXh03.css.pagespeed.cf.s9J1L34NK4.css" media="all"/>
+    
+    <link rel="stylesheet" type="text/css" href="https://www.proantic.com/css/A.proantic.webflow.024.css,qtimestampcssproantic.pagespeed.cf.CPfETiIz18.css">
+
+ 
+	<!-- Differer le chargement du css non essentiel -->
+		<noscript id="deferred-styles">
+			<link rel="stylesheet" href="https://www.proantic.com/css/jquery-ui-1_10_3-minify.css"/>
+			<!-- Mailchimp Form -->
+			<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+		</noscript>
+		<!-- CSS pour mailchimp -->
+		<style type="text/css">#mc_embed_signup{background:#fff;clear:left;font:14px Helvetica,Arial,sans-serif;width:100%}</style>
+		<link rel="shortcut icon" href="https://www.proantic.com/ico/proantic_ico_new_6.png"/>
+		<link rel="icon" href="https://www.proantic.com/ico/proantic_ico_new_6.png"/>
+ 		<link rel="apple-touch-icon" href="https://www.proantic.com/ico/proantic_ico_256.png">
+	
+	<!-- Link facebook sur page display.php -->
+
+	<!-- Creation du tag hreflang pour internationalisation seulement proantic.com -->
+<link rel="alternate" hreflang="en" href="https://www.proantic.com/en/galerie/lamberger-ponvianne/img/1036054-637e58fa62593.jpg"><link rel="alternate" hreflang="it" href="https://www.proantic.it/galerie/lamberger-ponvianne/img/1036054-637e58fa62593.jpg"></head>
+<body class="">
+
+	<!-- Header Banniere et Menu-->
+	
+<div id="totop" class="w-nav navbar">
+    <div class="w-container div-container-1200 toblur" style="width: 100%">
+        <!-- directadmin -->
+        <div>
+                    </div>
+        <div id="new-menu-top" class="new-menu-top">
+            <div class="navbar-top">
+                <!-- Menu Hamburger small screen-->
+                <div style="width: 41px" class="menu-button-ham navbar-small-screen"><i id="menu-button-ham-categorie" class="fa-thin fa-bars" data-status="toopen" onclick="small_screen_nav_open(this)"></i></div>
+                <div class="ico-titre flex" style="display:flex;gap: 10px">
+                    <a href="https://www.proantic.com/" style="display:flex;align-items:center;text-decoration:none;">
+                        <img alt="logo-proantic" src="https://www.proantic.com/ico/logo_proantic_2024.png" style="width: 69px;height: 100%;margin-right: 10px;">
+                        <div class="navbar-top-titre" style="">
+                            <span style="font-size:2rem;font-family: 'Cormorant Garamond', serif;font-weight: 400;font-style: normal;color: #BC9956">PROANTIC</span>
+                                                    </div>
+                    </a>
+                </div>
+                <div class="recherche flex navbar-big-screen">
+                    <form action="https://www.proantic.com/key.php" method="get">
+                        <!-- Champ Recherche -->
+                        <label class="sr-only" for="rechercheid">Que recherchez-vous ?</label>
+                        <input type="text" name="q" required="required" id="rechercheid" placeholder="Que recherchez-vous ?"/>
+                        <!-- Bouton recherche -->
+                        <button type="submit" style="border: none;background: none" aria-label="Que recherchez-vous ?"><i class="fa-thin fa-xl fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="nouveau-curr-flag flex navbar-big-screen">
+                    <div class="nav-menu-hover" style="margin:0;padding:0;">
+                    <a class="nav-menu-hover-a" href="https://www.proantic.com/antiquites-nouveautes" style="padding:7px 0;font-family: 'Lato', serif; color: #BC9956;text-transform: uppercase;margin-bottom:0">nouveautés</a>
+                    </div>
+                    <!-- CURRENCY -->
+                    <div class="nav-menu-currency">
+                        <div class="" style="color:black;font-family: 'Lato', sans serif;">
+                            <select aria-label="currency" onchange="createcookieSecure(...this.value.split(','))">
+                                <option disabled selected>€ - EUR</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,EUR,365,reload">€ - EUR</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,USD,365,reload">$ - USD</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,CAD,365,reload">$ - CAD</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,GBP,365,reload">£ - GBP</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,CHF,365,reload">₣ - CHF</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,SEK,365,reload">SEK</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,NOK,365,reload">NOK</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,DKK,365,reload">DKK</option>
+</select>
+</div>
+</div>                    <!-- Drapeaux -->
+                    <div class="nav-menu-flag">
+                                                    <a href="https://www.proantic.com/en/galerie/lamberger-ponvianne/img/1036054-637e58fa62593.jpg"><img alt="flag" src="https://www.proantic.com/ico/englishflag.png"/></a>
+                                            </div>
+                    <!-- menu login vers admin et buyer space -->
+                    <div class="w-dropdown-nav" style="padding:0;margin:0">
+                        <div class="w-dropdown-toggle navlink loginlink">
+                           Se connecter                        </div>
+                    <div class="login-header">        
+                            <nav class="w-dropdown-list w-clearfix" style="padding:0;margin:0">
+                                <a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/espace.php"><p style="margin:0">Acheteur</p></a>
+                                <a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/newadmin/"><p style="margin:0">Vendeur</p></a>
+                            </nav>
+                        </div>
+                                       </div>
+                </div>
+             <!-- Login small screen-->
+             <div class="menu-button-ham navbar-small-screen menu-button-ham-login" style="width: 41px"><i id="menu-button-ham-login" data-status="toopen" class="fa-thin fa-user" onclick="small_screen_nav_open_login(this)"></i>
+             </div>
+            </div>
+            <!-- Recherche small screen-->
+            <div class="recherche flex navbar-small-screen">
+                <form action="https://www.proantic.com/key.php" method="get">
+                    <!-- Champ Recherche -->
+                    <label class="sr-only" for="rechercheidsmall">Que recherchez-vous ?</label>
+                    <input type="text" name="q" required="required" id="rechercheidsmall" placeholder="Que recherchez-vous ?"/>
+                    <!-- Bouton recherche -->
+                    <button type="submit" style="border: none;background: none" aria-label="Que recherchez-vous ?"><i class="fa-thin fa-xl fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <nav class="navbar-bottom navbar-big-screen">
+                <div class="navbar-small-screen nav-menu-hover navbar-small-screen-nouveaute">
+                    <a href="https://www.proantic.com/antiquites-nouveautes" style="padding:7px 0;font-family: 'Lato', serif; color: #BC9956;text-transform: uppercase;margin-bottom:0">nouveautés</a>
+                </div>
+                <!-- MOBILIER -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" onclick="">
+                    <div class="w-dropdown-toggle navlink">
+                        <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/meubles-anciens">Mobilier</a>
+                    </div>
+                    <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                        <!-- Meta categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/meubles-anciens">Mobilier</a>
+                        </li>
+                        <!-- Super categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/meubles">Meubles</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/sieges">Sièges</a>
+                        </li>
+                    </ul>
+                  <i class="navbar-small-fleche navbar-small-screen fa-thin fa-angle-down"></i>
+                </div>
+                <!-- ART -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" onclick="">
+                    <div class="w-dropdown-toggle navlink">
+                        <a class="w-dropdown-link  nav-menu-hover-a" href="https://www.proantic.com/art-ancien-et-moderne">Art</a>
+                    </div>
+                    <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                        <!-- Meta categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/art-ancien-et-moderne">Art</a>
+                        </li>
+                        <!-- Super categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/arts-graphiques">Arts graphiques</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/sculptures">Sculptures</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/peintures-et-tableaux-anciens">Tableaux</a>
+                        </li>
+                    </ul>
+                   <i class="navbar-small-fleche navbar-small-screen  fa-thin fa-angle-down"></i>
+                </div>
+                <!-- BIJOUX MONTRE -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" onclick="">
+                    <div class="w-dropdown-toggle navlink">
+                        <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/bijoux-anciens-vintage-montres">Bijoux & montres</a>
+                    </div>
+                    <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                        <!-- Meta categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/bijoux-anciens-vintage-montres">Bijoux & montres</a>
+                        </li>
+                        <!-- Super categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/bijoux">Bijoux anciens</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/montres">Montres</a>
+                        </li>
+                    </ul>
+                   <i class="navbar-small-fleche navbar-small-screen  fa-thin fa-angle-down"></i>
+                </div>
+                <!-- DECOR -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" onclick="">
+                    <div class="w-dropdown-toggle navlink">
+                        <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/decor-ancien">Décor</a>
+                    </div>
+                    <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                        <!-- Meta categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/decor-ancien">Décor</a>
+                        </li>
+                        <!-- Super categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/elements-d-architecture">Eléments architecture</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/luminaires">Luminaires</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/miroirs">miroirs</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/arts-decoratifs">Arts décoratifs</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/horlogerie">Horlogerie</a>
+                        </li>
+                    </ul>
+                   <i class="navbar-small-fleche navbar-small-screen  fa-thin fa-angle-down"></i>
+                </div>
+                <!--  OBJET DECOR -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" onclick="">
+                    <div class="w-dropdown-toggle navlink">
+                        <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/objets-decoration-anciens-vintage">Objets Déco</a>
+                    </div>
+                    <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                        <!-- Meta categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/objets-decoration-anciens-vintage">Objets Déco</a>
+                        </li>
+                        <!-- Super categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/porcelaines">Porcelaine</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/faiences">Faïence</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/ceramiques">Autres Céramiques</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/argenterie">Argenterie</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/verrerie">Verrerie</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/textile">Art du textile</a>
+                        </li>
+                    </ul>
+                   <i class="navbar-small-fleche navbar-small-screen  fa-thin fa-angle-down"></i>
+                </div>
+                <!--  COLLECTION -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" onclick="">
+                    <div class="w-dropdown-toggle navlink ">
+                        <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/collections-objets-anciens">Collections</a>
+                    </div>
+                    <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                        <!-- Meta categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/collections-objets-anciens">Collections</a>
+                        </li>
+                        <!-- Super categories -->
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/objets-de-collection">Objets de collection</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/art-religieux-rituels">Art religieux & rituels</a>
+                        </li>
+                        <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/militaria">Militaria</a>
+                        </li>
+                    </ul>
+                   <i class="navbar-small-fleche navbar-small-screen  fa-thin fa-angle-down"></i>
+                </div>
+
+                <!-- Sellers -->
+                <div class="w-dropdown-nav nav-menu-hover nav-menu-hover-meta" data-menu="antiquaire">
+                    <div class="w-dropdown-toggle navlink ">
+                        <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/antiquaires.php">Antiquaires</a>
+                    </div>
+                </div>
+
+                <!-- Magazine -->
+                                    <div class="w-dropdown-nav magazine nav-menu-hover nav-menu-hover-meta">
+                        <div class="w-dropdown-toggle navlink ">
+                            <a class="w-dropdown-link nav-menu-hover-a" href="https://www.proantic.com/magazine/">Magazines</a>
+                        </div>
+                        <ul class="w-dropdown-list w-clearfix dropdown-list-main">
+                            <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/magazine/"><img src="https://www.proantic.com/ico/33flag20px.jpg" alt="fr"/> Le Magazine de PROANTIC</a></li>
+                            <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/antiques-art-design-magazine/"><img style="width:20px" src="https://www.proantic.com/ico/44flag20px.png" alt="en"/> TRÉSORS magazine</a></li>
+                            <li><a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.it/artiquariato/" target="_blank"><img src="https://www.proantic.com/ico/39flag20px.jpg" alt="it"/> Rivista Artiquariato</a></li>
+                        </ul>
+                        <i class="navbar-small-fleche navbar-small-screen  fa-thin fa-angle-down"></i>
+                    </div>
+                                <div class="navbar-small-screen navbar-small-screen-flag-currency">
+                <!-- small screen Drapeaux -->
+                <div>
+                                            <a href="https://www.proantic.com/en/galerie/lamberger-ponvianne/img/1036054-637e58fa62593.jpg"><img alt="flag" src="https://www.proantic.com/ico/englishflag.png"/></a>
+                                        </div>
+                   <div class="nav-menu-currency">
+                        <div class="" style="color:black;font-family: 'Lato', sans serif;">
+                            <select aria-label="currency" onchange="createcookieSecure(...this.value.split(','))">
+                                <option disabled selected>€ - EUR</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,EUR,365,reload">€ - EUR</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,USD,365,reload">$ - USD</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,CAD,365,reload">$ - CAD</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,GBP,365,reload">£ - GBP</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,CHF,365,reload">₣ - CHF</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,SEK,365,reload">SEK</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,NOK,365,reload">NOK</option>
+<option style="cursor: pointer;margin:0" value="CURRENCY,DKK,365,reload">DKK</option>
+</select>
+</div>
+</div>                </div>
+            </nav>
+            <!-- Petite ecran affiche du menu login-->
+            <div class="navbar-small-screen navbar-small-screen-login-menu" style="padding:0;margin:0">
+               <div class="login-header">        
+                            <nav class="w-dropdown-list w-clearfix" style="padding:0;margin:0">
+                                <a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/espace.php"><p style="margin:0">Acheteur</p></a>
+                                <a class="w-dropdown-link dropdown-link-main" href="https://www.proantic.com/newadmin/"><p style="margin:0">Vendeur</p></a>
+                            </nav>
+                        </div>
+                               </div>
+        </div>
+
+    </div>
+</div>	
+		
+	<div id"">
+		<div class="w-container div-container-1200">
+		
+			<!-- Titre h1 et separateur-->
+			<h1>Proantic <br/>La page que vous cherchez n'existe pas!</h1>
+			<!-- separateur -->
+			<div id="separator" class="w-container separator">
+				<img src="https://www.proantic.com/ico/line.png" alt="separator">
+			</div>
+			
+			<h3><strong>Proantic</strong> est incapable de trouver la page que vous demandez. Celle-ci n'existe pas.
+		<br/> Vous pouvez continuer votre navigation sur le site en utilisant le menu en haut de la page ou les liens vers la liste des objets.
+		<br/><br/>Nous vous remercions de votre visite.</h3>
+			
+			<div id="separator" class="w-container separator">
+				<img src="https://www.proantic.com/ico/line.png" alt="separator">
+			</div>
+			
+			
+			<h3>Continuez votre visite avec les 325361 objets d'art en vente sur Proantic.</h3><br/><br/>
+			
+			<!-- Images et liens -->		
+			<div class="w-row row-object">
+				<!-- Nouveautes -->
+				<div class="w-col w-col-2 w-clearfix col-410">
+					<a href="https://www.proantic.com/antiquites-nouveautes.php">
+					Nouveaut&eacute;s					</a><br/>
+					<a href="https://www.proantic.com/antiquites-nouveautes.php">
+					<img src="https://www.proantic.com/img/410-nouveautes.jpg">
+					</a>
+				</div>	
+				<!-- tableaux -->
+				<div class="w-col w-col-2 w-clearfix col-410">
+					<a href="https://www.proantic.com/tableaux-anciens.php">
+					Tableaux					</a><br/>
+					<a href="https://www.proantic.com/tableaux-anciens.php">
+					<img src="https://www.proantic.com/img/410-tableaux.jpg">
+					</a>
+				</div>
+				<!-- Horlogerie -->		
+				<div class="w-col w-col-2 w-clearfix col-410">
+					<a href="https://www.proantic.com/horlogerie.php">
+					Horlogerie					</a><br/>
+					<a href="https://www.proantic.com/horlogerie.php">
+					<img src="https://www.proantic.com/img/410-horlogerie.jpg">
+					</a>
+				</div>
+				<!-- Sculpture -->		
+				<div class="w-col w-col-2 w-clearfix col-410">
+					<a href="https://www.proantic.com/sculptures.php">
+					Sculptures					</a><br/>
+					<a href="https://www.proantic.com/sculptures.php">
+					<img src="https://www.proantic.com/img/410-sculpture.jpg">
+					</a>
+				</div>
+				<!-- Faience porcelaine -->		
+				<div class="w-col w-col-2 w-clearfix col-410">
+					<a href="https://www.proantic.com/faience-porcelaine.php">
+					Fa&iuml;ences					</a><br/>
+					<a href="https://www.proantic.com/faience-porcelaine.php">
+						<img src="https://www.proantic.com/img/410-faience.jpg">
+					</a>
+				</div>
+				<!-- Mobilier -->
+				<div class="w-col w-col-2 w-clearfix col-410">
+					<a href="https://www.proantic.com/mobilier.php">
+					Mobilier					</a><br/>
+					<a href="https://www.proantic.com/mobilier.php">
+					<img src="https://www.proantic.com/img/410-mobilier.jpg">
+					</a>
+				</div>	
+			
+			</div>
+		</div>
+	</div>
+	
+	<!-- SUIVEZ-NOUS -->
+	<div class="w-section section-social toblur">
+	<!-- Begin MailChimp Signup Form -->
+	<div class="w-container div-container-1200">
+	    <div class=" h1-style h1-accueil" style="font-size:2.1875rem;">Recevez notre newsletter</div>
+		        <!-- separateur -->
+        <img src="https://www.proantic.com/ico/line.png" alt="line" class="line">
+		<div id="mc_embed_signup">
+			<form action="//proantic.us8.list-manage.com/subscribe/post" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="hidden" name="u" value="1f020afd2d7bbc167c8e91821">
+				<input type="hidden" name="id" value="e3ccc65bb5">
+			    <div id="mc_embed_signup_scroll">
+                    <label class="sr-only" for="mce-EMAIL">email</label>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <input type="hidden" name="b_1f020afd2d7bbc167c8e91821_e3ccc65bb5" value="">
+				    <div class="clear"><input type="submit" value="Je m'abonne" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#1f1a15;"></div>
+			    </div>
+			</form>
+		</div>
+		<!--End mc_embed_signup-->
+	</div>
+	<div class="w-container div-container-1200" style="margin-top:30px;">
+	    <!-- facebook -->
+	    <div class="div33">
+            <a target="_blank" style="text-decoration:none;" href="https://www.facebook.com/proantic/"><img width="55" alt="facebook" src="https://www.proantic.com/ico/facebook_sm.png"></a>
+	    </div>
+	    <!-- pinterest -->
+	    <div class="div33">
+	    	<a target="_blank" style="text-decoration:none;" href="https://www.pinterest.com/proantic/"><img width="55" alt="pinterest" src="https://www.proantic.com/ico/pinterest_sm.png"></a>
+	    </div>
+	    <!-- instagram -->
+	    <div class="div33">
+	    	<a target="_blank" style="text-decoration:none;" href="https://www.instagram.com/proantic_com/"><img width="55" alt="instagram" src="https://www.proantic.com/ico/INSTAGRAM-LOGO-SM.png"></a>
+	    </div>
+	</div>
+	<!-- Fleche de retour vers le haut de page -->
+    <p id="to-top-button" class="w-button button to-top-button toblur"><i class="fa-thin fa-xs fa-chevron-up"></i></p>
+
+</div>	
+	<!-- FOOTER -->
+	    <div id="Section-footer" class="w-section section-footer toblur">
+        <div class="w-container div-container-1200">
+            
+<div class="footer-top">
+    <div class="footer-top-column">
+        <p>Pour les vendeurs</p>
+        <ul>
+            <li><a href="https://www.proantic.com/inscription-galerie.php">Créer une galerie</a></li>
+            <li><a href="https://www.proantic.com/professionnels.php">Tarifs et abonnements </a></li>
+            <li><a href="https://www.proantic.com/newadmin">Accès pro (Se connecter) </a> </li>
+            <li><a href="https://www.proantic.com/vendre-vos-antiquites.php">Particuliers : vendre vos objets </a> </li>
+        </ul>
+
+        <p>Pour les acheteurs</p>
+        <ul>
+            <li><a href="https://www.proantic.com/espace.php">Accès acheteur (Se connecter)</a></li>
+            <li><a href="https://www.proantic.com/bien-acheter.php">Bien acheter sur PROANTIC </a></li>
+                            <li><a href="https://www.proantic.com/les-chambres-experts.php">Chambres d'expertise</a> </li>
+                    </ul>
+
+    </div>
+    <div class="footer-top-column">
+        <p>PROANTIC</p>
+        <ul>
+            <li><a href="https://www.proantic.com/about-us.php">Qui sommes-nous ? </a></li>
+            <li><a href="mailto:info@proantic.com?subject=Questions%20au%20webmestre%20Proantic.com">Nous contacter </a></li>
+            <li><a href="https://www.proantic.it/">PROANTIC Italia</a></li>
+        </ul>
+
+
+        <p>Nos Magazines</p>
+        <ul class="footer-top-column-magazine">
+            <li><a href="https://www.proantic.com/magazine/"><img src="https://www.proantic.com/ico/33flag20px.jpg" alt="fr"/> Le Magazine de PROANTIC</a></li>
+            <li><a href="https://www.proantic.com/antiques-art-design-magazine/"><img style="width: 20px" src="https://www.proantic.com/ico/44flag20px.png" alt="en"/> TRÉSORS Magazine</a></li>
+            <li><a href="https://www.proantic.it/artiquariato/" target="_blank"><img src="https://www.proantic.com/ico/39flag20px.jpg" alt="it"/>Rivista Artiquariato</a></li>
+        </ul>
+        <p>Conditions générales</p>
+        <ul>
+            <li><a href="https://www.proantic.com/mentionslegales.php">Mentions légales </a></li>
+            <li><a href="https://www.proantic.com/RGPD.php">Protection des données </a></li>
+        </ul>
+        <!-- popur petit ecran -->
+        <ul class="footer-filter navbar-small-screen">
+
+            <a href="https://www.proantic.com/recherche-avancee.php" title="Recherche Avanc&eacute;e">
+                <i class="fa-thin fa-sliders-simple"></i>
+            </a>
+            <a class="link-text" href="https://www.proantic.com/recherche-avancee.php" title="Recherche Avanc&eacute;e">
+                Filtres            </a>
+
+
+        </ul>
+    </div>
+    <div class="footer-top-column navbar-big-screen">
+        <p>Catégories</p>
+        <ul>
+            <li> <a class="footer-top-column-gold" href="https://www.proantic.com/meubles-anciens">Mobilier</a></li>
+            <li><a class="" href="https://www.proantic.com/meubles">Meubles</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/sieges">Sièges</a>
+            </li>
+
+
+            <li> <a class="footer-top-column-gold" href="https://www.proantic.com/art-ancien-et-moderne">Art</a></li>
+            <li><a class="" href="https://www.proantic.com/arts-graphiques">Arts graphiques</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/sculptures">Sculptures</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/peintures-et-tableaux-anciens">Tableaux</a>
+            </li>
+
+            <li><a class="footer-top-column-gold" href="https://www.proantic.com/bijoux-anciens-vintage-montres">Bijoux & Montres</a></li>
+            <li><a class="" href="https://www.proantic.com/bijoux">Bijoux anciens</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/montres">Montres</a>
+            </li>
+
+
+            <li>  <a class="footer-top-column-gold" href="https://www.proantic.com/collections-objets-anciens">Collections</a></li>
+            <li><a class="" href="https://www.proantic.com/objets-de-collection">Objets de collection</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/art-religieux-rituels">Art religieux & Rituels</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/militaria">Militaria</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-top-column navbar-big-screen">
+        <p>Catégories</p>
+        <ul>
+            <li> <a class="footer-top-column-gold" href="https://www.proantic.com/decor-ancien">Décor</a></li>
+            <li><a class="" href="https://www.proantic.com/horlogerie">Horlogerie</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/elements-d-architecture">Eléments d'architecture</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/luminaires">Luminaires</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/miroirs">Miroirs</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/arts-decoratifs">Arts décoratifs</a>
+            </li>
+
+            <li> <a class="footer-top-column-gold" href="https://www.proantic.com/objets-decoration-anciens-vintage">Objets Déco</a></li>
+            <li><a class="" href="https://www.proantic.com/porcelaines">Porcelaine</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/faiences">Faïence</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/ceramiques">Autres céramiques</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/argenterie">Argenterie</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/verrerie">Verrerie</a>
+            </li>
+            <li><a class="" href="https://www.proantic.com/textile">Art du textile</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="footer-filter">
+                <!-- ctg_liste='.$_GET['ctg_liste'].'&amp; -->
+                <a class="link-text" href="https://www.proantic.com/recherche-avancee.php" title="Recherche Avanc&eacute;e">
+                    <i style="padding-right: 10px" class="fa-thin fa-sliders-simple"></i>Filtres                </a>
+
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="footer-separation"></div>
+<div class="footer-bottom">
+    <p class="navbar-big-screen">Le site des antiquaires en ligne.<br>
+Proantic est un site internet de vente en ligne dédié aux antiquaires professionnels. Vous cherchez à acheter des antiquités, Proantic propose à la vente un choix d’objets d’art, du mobilier ancien, des tableaux anciens. Proantic, c’est un moteur de recherche pour trouver un antiquaire ou une galerie d’art.<br>
+Sur proantic retrouvez l’actualité de l’art et des expositions.</p>
+    <a href="https://www.proantic.com/" class="w-nav-brand w-clearfix logo"><img width="350" alt="logo_Proantic" src="https://www.proantic.com/ico/logo_proantic4a_sm_33.png"></a>
+
+</div>
+        </div>
+    </div>
+
+<script>function init(){var imgDefer=document.getElementsByTagName('img');for(var i=0;i<imgDefer.length;i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;var loadDeferredStyles=function(){var addStylesNode=document.getElementById("deferred-styles");var replacement=document.createElement("div");replacement.innerHTML=addStylesNode.textContent;document.body.appendChild(replacement)
+addStylesNode.parentElement.removeChild(addStylesNode);};var raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;if(raf)raf(function(){window.setTimeout(loadDeferredStyles,0);});else window.addEventListener('load',loadDeferredStyles);</script>
+
+<script>function nav(formName,element){var w=document.forms[formName].elements[element].selectedIndex;window.location.href=document.forms[formName].elements[element].options[w].value}function scrollToTop(){$("html, body").animate({scrollTop:"0"});}function toggleShow(el){if(document.getElementById(el).style.display==="none"){document.getElementById(el).style.display="block";}document.getElementById('separator').style.display="block";scrollToTop();}function toggle(obj){var el=document.getElementById(obj);console.log(el.style.display)
+if(el.style.display==='none'||el.style.display===''){el.style.display='block';}else{el.style.display='none';}}function changeButtonDisEn(form,element){var button=window.document.forms[form].elements[element];button.disabled=!button.disabled;}function changeTransportPrix(prix){var prixtrsp=document.getElementById('listetrsp');var field_prixtrsp=window.document.forms['frm_paypal'].elements['shipping'];var field_total=window.document.forms['frm_total'].elements['total'];prix=parseFloat(prix);const trsp=parseFloat(prixtrsp.value);field_total.value=prix+trsp
+field_prixtrsp.value=prixtrsp.value;}</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YP51KSLLWR"></script>
+<script>
+    //script pour gerer si l'utilisateur accepte les cookies ou non expiration cookie_analytic et analytic : 13 mois expiration du cookie decliner 1heure
+    
+    function createcookieACCEPTER() {
+        document.cookie = "cookie_analytic=accepter; max-age=34190000;SameSite=Lax;Secure;path=/; domain=.proantic.com";
+        document.getElementById('cookie').style.display = 'none';
+        googleanalytic();
+    }
+
+    function createcookieDECLINER() {
+        document.cookie = "cookie_analytic=decliner; max-age=2628000;SameSite=Lax;Secure;path=/; domain=.proantic.com";
+        document.getElementById('cookie').style.display = 'none';
+    }
+
+    function googleanalytic() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YP51KSLLWR', {
+            'cookie_domain': '.proantic.com',
+            'cookie_update': 'false',
+            'anonymize_ip': true,
+            'cookie_flags': 'max-age=34190000;secure;samesite=none'
+        });
+        gtag('set', {
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+        gtag('event','page_view', {'send_to': 'G-YP51KSLLWR'});
+    }
+    //script pour logout avec sweetalerte
+    function alertelogout(el) {
+
+        var info = $(el).attr("data-text");
+        Swal.fire({
+            html: info,
+            showCancelButton: true,
+            cancelButtonText: 'Non',
+            confirmButtonText: 'Oui',
+            toast: true,
+            position: 'top',
+            icon: 'warning',
+        }).then(function(result) {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+                location.href = "https://www.proantic.com/script/logout.php";
+            }
+        })
+        event.preventDefault();
+    }
+
+    //script pour agrandir les carousel-->
+    function carousel_center_open() {
+        let isMobile = window.matchMedia("only screen and (max-width: 991px)").matches;
+        let isOrdi = window.matchMedia("only screen and (min-height: 760px)").matches;
+        if (isMobile) {
+            document.getElementById('slideshow-container').scrollIntoView({block: 'start', behavior: 'smooth'}); //si c'Est unsmartphone le bouton diaporama scroll vers le carousel basique
+        } else {
+            $(".slideshow-container").add(".overlay_shadow").fadeOut("slow", function () {
+                $(".toblur").css({"filter": "blur(3px)"});
+                $(".slideshow-container").css({
+                    "position": "fixed",
+                    "z-index": "99999",
+                    "background": "#F2EFED",
+                    "top": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "right": "0",
+                    "max-width": "1200px",
+                    "max-height": "750px"
+                });
+                $(".img_carousel_close").css({"display": "block", "position": "absolute", "right": "5%", "top": "5%"});
+                $(".img_carousel_display_link").css({"left": "10%"});
+                $(".img_carousel_display").css({"margin": "auto"});
+                $(".img_carousel").css({"max-height": "600px"});
+                $(".mySlides").css({"height": "600px"});
+                $(".slideshow-container").add(".overlay_shadow").fadeIn("slow");
+                $(".slideshow-container .hidden").css('visibility','visible');
+                if (isOrdi) {
+                    $("#img_carousel_titre_div").css({"display": "block"});
+                }
+            })
+
+            $(document).mouseup(function (e) //function qui ferme le carousel si on click a l exterieur
+            {
+                var container = $(".slideshow-container");
+                if (!container.is(e.target) && container.has(e.target).length === 0) {
+                    carousel_center_close()
+                }
+            });
+        }
+    }
+
+    function carousel_center_close() {
+
+        $(".slideshow-container").add(".overlay_shadow").fadeOut("slow", function () {
+            $(".toblur").css({"filter": "none"});
+            $(".slideshow-container").css({
+                "position": "relative",
+                "z-index": "",
+                "background": "",
+                "max-width": "95%",
+                "margin": "auto",
+                "padding-top": "49px"
+            });
+            $(".img_carousel_close").css({"display": "none"});
+            $(".img_carousel_display_link").css({"left": ""});
+            $(".img_carousel_display").css({"margin": "0 auto"});
+            $(".img_carousel").css({"max-height": "390px"});
+            $(".mySlides").css({"height": "390px"});
+            $("#img_carousel_titre_div").css({"display": "none"});
+            $(".slideshow-container").add(".overlay_shadow").fadeIn("slow");
+            $(".slideshow-container .hidden").css('visibility','hidden');
+            $(document).unbind('mouseup');
+        })
+    }
+
+    //fonction qui detect les mouvement pour les smartphones
+    function swipedetect(el, callback) {
+
+        var touchsurface = el,
+            swipedir,
+            startX,
+            startY,
+            distX,
+            distY,
+            threshold = 30, //required min distance traveled to be considered swipe
+            restraint = 700, // maximum distance allowed at the same time in perpendicular direction
+            allowedTime = 500, // maximum time allowed to travel that distance
+            elapsedTime,
+            startTime,
+            handleswipe = callback || function (swipedir) {
+            }
+
+        touchsurface.addEventListener('touchstart', function (e) {
+            var touchobj = e.changedTouches[0]
+            swipedir = 'none'
+            const dist = 0
+            startX = touchobj.pageX
+            startY = touchobj.pageY
+            startTime = new Date().getTime() // record time when finger first makes contact with surface
+            e.preventDefault()
+        }, false)
+
+        touchsurface.addEventListener('touchmove', function (e) {
+            e.preventDefault() // prevent scrolling when inside DIV
+        }, false)
+
+        touchsurface.addEventListener('touchend', function (e) {
+            var touchobj = e.changedTouches[0]
+            distX = touchobj.pageX - startX // get horizontal dist traveled by finger while in contact with surface
+            distY = touchobj.pageY - startY // get vertical dist traveled by finger while in contact with surface
+            elapsedTime = new Date().getTime() - startTime // get time elapsed
+            if (elapsedTime <= allowedTime) { // first condition for awipe met
+                if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint) { // 2nd condition for horizontal swipe met
+                    swipedir = (distX < 0) ? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
+                } else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint) { // 2nd condition for vertical swipe met
+                    swipedir = (distY < 0) ? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
+                }
+            }
+            handleswipe(swipedir)
+            e.preventDefault()
+        }, false)
+    }
+
+    //Affichage du button TOP
+    buttontop = document.getElementById("to-top-button");
+    //sur le click on retourne en haut
+    buttontop.addEventListener("click",function(){
+        scrollToTop()
+    })
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            buttontop.style.opacity = "1";
+            buttontop.style.display = "block";
+            buttontop.style.transition = "opacity 500ms ease 0ms";
+        } else {
+            buttontop.style.opacity = "0";
+            buttontop.style.display = "none";
+            buttontop.style.transition = "opacity 500ms ease 0ms";
+        }
+    }
+    //fonction utilise par vue_selection et vue_antiquaire_favoris pour creer les convs si elles existent pas
+    function create_conv(el, titre, text, send, cancel) {
+        event.preventDefault();
+        // $('form#creation_conv').submit();
+        Swal.fire({
+            title: titre,
+            html: '<textarea style="height:200px" id="textarea" class="swal2-input" placeholder="' + text + '"></textarea>',
+            position: 'center',
+            confirmButtonText: send,
+            cancelButtonText: cancel,
+            showCancelButton: true,
+            preConfirm: function() {  //recupere le textarea
+                const textarea = Swal.getPopup().querySelector('#textarea').value;
+                if (!textarea) {
+                    Swal.showValidationMessage('Vide')
+                }
+                return {textarea: textarea}
+            },
+        }).then(function(result) {
+
+            if (result.isConfirmed) {
+                var text = "<p>"+result.value.textarea+"</p>";
+                const data = {};
+                const form = document.querySelector('#create_conv');
+                for (let I = 0; I < form.length; I++) {
+                    const name = form[I].getAttribute('name');
+                    data[name] = form[I].value;
+                }
+                data.message_text = text;
+                data.message_action = "addconvmess";
+                console.log(data)
+
+                const ajax = async function (data, method = null) {
+                    try {
+                        const response = await fetch('https://www.proantic.com/controleur/api/messagerie/message.php', {
+                            method: "PUT",
+                            mode: 'cors',
+                            body: JSON.stringify(data),
+                            cache: 'no-cache',
+                            credentials: 'same-origin', // include, *same-origin, omit
+                            redirect: 'follow',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                        });
+                        const res = await response.json();
+                        console.log(res);
+                            Swal.fire({
+                                html: res[1],
+                                icon: res[0],
+                                timerProgressBar: true,
+                                timer: '2500',
+                                toast: true,
+                                position: 'center',
+                                confirmButtonText: 'Ok',
+                                didOpen: function(toast) {
+                                    toast.addEventListener('mouseenter', Swal.stopTimer)
+                                    toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                },
+                                willClose: function() {
+                                    if (res[0] === "success") {
+                                        var url = 'https://www.proantic.com/monespace.php?mode=messagerie';
+                                        var form = $('<form action="' + url + '" method="post">' +
+                                            '<input type="text" name="conv_id" value="' + res[2] + '" />' +
+                                            '<input type="text" name="conv_status" value="encours" />' +
+                                            '</form>');
+                                        $('body').append(form);
+                                        form.submit();
+                                    }
+                                }
+                            });
+                    } catch (err) {
+                        console.log(err);
+                    }
+                }
+                ajax(data);
+            }
+        })
+    }
+    //permet que le menu hamburger prenne tout l espacce
+    function small_screen_nav_full_screen(status){
+        if(status === "toopen"){
+        document.querySelector('body').style.overflow = "hidden"
+        document.querySelector('.new-menu-top').classList.add('new-menu-top-full')
+        }
+        if(status === "toclose"){
+            document.querySelector('body').style.overflow = "auto"
+            document.querySelector('.new-menu-top').classList.remove('new-menu-top-full')
+        }
+    }
+
+    //fonction pour ouvrir la nav categorie des petits ecran
+    function small_screen_nav_open(el){
+        const text = $("#menu-button-ham-categorie");
+        const status = text.data('status')
+        if (status === "toopen") {
+            document.querySelector(".navbar-bottom").style.display = "flex"
+            text.data("status", "toclose")
+            //on change l icone
+            text.removeClass("fa-bars")
+            text.addClass("fa-xmark")
+            small_screen_nav_full_screen("toopen")
+        }
+
+        if (status === "toclose") {
+            document.querySelector(".navbar-bottom").style.display = "none"
+            text.data("status", "toopen")
+            //on change l icone
+            text.addClass("fa-bars")
+            text.removeClass("fa-xmark")
+            small_screen_nav_full_screen("toclose")
+        }
+
+        const menulogin = $("#menu-button-ham-login");
+
+        if (menulogin.data('status') === "toclose") {
+            document.querySelector(".navbar-small-screen-login-menu").querySelector("nav").style.display = "none"
+            menulogin.removeClass("fa-xmark")
+            menulogin.removeClass("fa-solid")
+            menulogin.addClass("fa-regular")
+            menulogin.addClass("fa-user")
+        }
+
+    }
+
+    //fonction pour ouvrir la nav categorie des petits ecran
+    function small_screen_nav_open_login(el){
+
+        const text = $("#menu-button-ham-login");
+        const status = text.data('status')
+        if (status === "toopen") {
+            document.querySelector(".navbar-small-screen-login-menu").querySelector("nav").style.display = "block"
+            text.data("status", "toclose")
+            //on change l icone
+            text.removeClass("fa-user")
+            text.addClass("fa-solid")
+            text.addClass("fa-xmark")
+            small_screen_nav_full_screen("toopen")
+        }
+
+        if (status === "toclose") {
+            document.querySelector(".navbar-small-screen-login-menu").querySelector("nav").style.display = "none"
+            text.data("status", "toopen")
+            //on change l icone
+            text.removeClass("fa-xmark")
+            text.removeClass("fa-solid")
+            text.addClass("fa-regular")
+            text.addClass("fa-user")
+            small_screen_nav_full_screen("toclose")
+
+        }
+
+        const menucat = $("#menu-button-ham-categorie");
+
+        if (menucat.data('status') === "toclose") {
+            document.querySelector(".navbar-bottom").style.display = "none"
+            menucat.data("status", "toopen")
+            menucat.addClass("fa-bars")
+            menucat.removeClass("fa-xmark")
+        }
+
+    }
+
+    //affiche le block recherche en mode smartphone
+    function recherche_modale() {
+        $(".global-search-window").css({"display": "block"})
+        $(document).mouseup(function (e) //function qui ferme le carousel si on click a l exterieur
+        {
+            var container = $(".global-search-window");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                $(".global-search-window").css({"display": "none"});
+                $(document).unbind('mouseup');
+            }
+        });
+    }
+    //function pour afficher le form pour contacter l'antiquaire depuis display ou magindex
+    function contact_dealer_open(){
+        $(".info-window1").add(".overlay_shadow").fadeIn("slow", function() {
+            $(".toblur").css({"filter":"blur(3px)"});
+            $(".toblur_contact").css({"filter":"blur(3px)"});
+        })
+        $(document).mouseup(function (e)
+        {
+            var container = $(".info-window1");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                contact_dealer_close();
+            }
+        });
+    }
+    //function pour ne afficher pas le form pour contacter l'antiquaire depuis display ou magindex
+    function contact_dealer_close(){
+        $(".info-window1").add(".overlay_shadow").fadeOut("slow", function() {
+            $(".toblur").css({"filter": "none"});
+            $(".toblur_contact").css({"filter": "none"});
+            $(document).unbind('mouseup');
+        })
+    }
+
+    //fonction qui toggle le menu gauche et haut pour liste_image et liste_antiquaire
+    function display_list_menu_gauche_top(div) {
+        document.querySelectorAll(".dropdown-toggle-"+div).forEach(function (el) {
+            el.addEventListener('click', function (e) {
+               const btn = e.target.closest('.w-dropdown-toggle').nextElementSibling;
+                if (btn) {
+                    if ($(btn).css("display") === "block") {
+                        $(".dropdown-list-"+div+"nav").css({"display": "none"});
+                    } else {
+                        $(".dropdown-list-"+div+"nav").css({"display": "none"});
+                        $(btn).css({"display": "block"});
+                    }
+                }
+            })
+        })
+        if (div === "top" || div === "antiquairetop") {
+            document.querySelectorAll('.dropdown-list-topclose').forEach(function (el) {
+                el.addEventListener('click', function (e) {
+                    const closeModal = e.target.closest('.w-clearfix').parentElement;
+                    $(".toblur").css({"filter": "none"});
+                    closeModal.style.display = "none";
+                })
+            })
+        }
+    }
+
+    //fonction utilise pour affiche le menu antiqueaire et categorie avec les petits ecran
+    function display_list_small() {
+        let btn;
+        document.querySelector('.div-filter-buttons').addEventListener('click', function (e) {
+            btn = e.target.closest('.button-search');
+            if (btn) {
+                document.querySelector("#"+btn.dataset.id).style.display = "block";
+                $(".toblur").css({"filter": "blur(3px)"});
+                $(document).mouseup(function (e) //function qui ferme si on click a l exterieur
+                {
+                    if(!e.target.closest('.dropdown-leftnav')){
+                       document.querySelector("#"+btn.dataset.id).style.display = "none";
+                       $(".toblur").css({"filter":"none"});
+                    }
+                })
+            }
+        })
+    }
+
+    /***
+     * @param name
+     * @param value
+     * @param time en jours
+     */
+    function createcookieSecure(name,value,days,reload=null){
+        let expire  = (days * 24 * 60 * 60)
+        document.cookie = `${name}=${value}; max-age=${expire};SameSite=None;Secure;path=/; domain=.proantic.com`;
+        reload ? location.reload() :''
+    }
+
+    /**
+     * Gestion du hover des meta de la navbar, line et rond
+     */
+    document.addEventListener('DOMContentLoaded', function () {
+        let metagold = false
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+            const dropdownLinks = document.querySelector('.navbar-bottom');
+            function toggleClasses(el, action) {
+                const addClass = action === 'add';
+                if (el.target.closest(".nav-menu-hover-meta")) {
+
+                    //empeche la mise en dore de la meta en petit ecran ( gerer en dessous)
+                    if (screenWidth >= 991) {
+                        el.target.closest(".nav-menu-hover-meta").querySelector('a').classList.toggle("active-nav", addClass);
+                        el.target.closest(".nav-menu-hover-meta").querySelector('a').classList.toggle("nav-gold-color");
+                    }
+                    metagold = true
+                }
+            }
+            dropdownLinks.addEventListener('mouseover', function (el) {
+                toggleClasses(el, 'add');
+            });
+            dropdownLinks.addEventListener('mouseout', function (el) {
+                toggleClasses(el, 'remove');
+            });
+
+
+    /**
+     * Gestion du menu en small screen
+     */
+        if (screenWidth <= 991) {
+            //on enleve la classe w-dropdown-nav, pour eviter un "faux" double click
+            document.querySelectorAll('.nav-menu-hover-meta').forEach(otherParent => {
+                        otherParent.classList.remove("w-dropdown-nav")
+            })
+            document.querySelectorAll('.nav-menu-hover-meta').forEach(parent => {
+                let parentmenudata = parent.dataset.menu
+                parent.addEventListener('click', function (event) {
+                    if(event.target.classList.contains("dropdown-link-main")){
+                        return;
+                    }
+                    if(!parentmenudata){
+                        event.stopPropagation()
+                        event.preventDefault()
+                    }
+                    //affiche la meta en gold
+                    parent.querySelector('a').classList.toggle("nav-gold-color");
+                    //change la direction des fleches
+                    parent.querySelector('i').classList.toggle("fa-angle-up")
+                    parent.querySelector('i').classList.toggle("fa-angle-down")
+
+                    // Hide other sub-menus
+                    document.querySelectorAll('.nav-menu-hover-meta').forEach(otherParent => {
+                        if (otherParent !== parent) {
+                            otherParent.classList.remove('active');
+                            //change la direction des fleches et enleve la vouleur gold
+                          if( otherParent.querySelector('i')){
+                              otherParent.querySelector('i').classList.remove("fa-angle-up")
+                              otherParent.querySelector('i').classList.add("fa-angle-down")
+                              otherParent.querySelector('a').classList.remove("nav-gold-color");
+                            }
+                        }
+                    })
+                    // Toggle the clicked sub-menu
+                    parent.classList.toggle('active');
+                })
+            })
+        }
+    })
+    function detectMobileOS() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        // Détection iOS
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return 'iOS';
+        }
+
+        // Détection Android
+        if (/android/i.test(userAgent)) {
+            return 'Android';
+        }
+
+        // Sinon, retour inconnu
+        return 'Unknown';
+    }
+</script>    <div id="cookie" class="cookie_rgpd">
+         <div class="cookie_in">
+          <p class="analytic" style="font-size:0.875rem;">
+            Proantic utilise un cookie pour analyser le traffic et améliorer son service avec Google Analytics.<br>
+              Les données envoyées à Google Analytics (fréquence de visite du site et pages visitées) sont anonymes.<br>
+              Aucun autre cookie ne traque votre activité, vos données personnelles ne sont pas collectées.<br>
+              Merci de votre aide pour nous permettre de mieux comprendre comment Proantic est utilisé.          </p>
+            <div id="Buttondivanalytic">
+            <button class="Buttonanalytic" style="color:#000;background:#fff" onclick="createcookieACCEPTER()">Accepter </button>
+            <button class="Buttonanalytic" onclick="createcookieDECLINER()">Refuser</button>
+            <input class="Buttonanalytic" type="button" onclick="window.location.href = 'https://www.proantic.com/RGPD.php';" value="Plus d'information ">
+           </div>
+         </div>
+    </div>
+    
+            <script>if(!navigator.cookieEnabled){var x=document.getElementById("cookie");x.style.display="none";}</script><script>function sweet_simple(title,icon){Swal.fire({html:title,icon:icon,toast:true,position:'center',confirmButtonText:'Fermer'});}function sweet_simple_timer(title,icon){Swal.fire({html:title,icon:icon,timerProgressBar:true,timer:'2500',toast:true,position:'center',confirmButtonText:'Fermer',didOpen:(toast)=>{toast.addEventListener('mouseenter',Swal.stopTimer)
+toast.addEventListener('mouseleave',Swal.resumeTimer)},});}function sweet_simple_timer_reload_page(title,icon){Swal.fire({html:title,icon:icon,timerProgressBar:true,timer:'2500',toast:true,position:'center',confirmButtonText:'Fermer',didOpen:(toast)=>{toast.addEventListener('mouseenter',Swal.stopTimer)
+toast.addEventListener('mouseleave',Swal.resumeTimer)},willClose:()=>{location.reload();},});}function sweet_simple_timer_reload_id(title,icon,id){if(id.indexOf('#')===-1){var idreload="#"+id;}else{var idreload=id}Swal.fire({html:title,icon:icon,timerProgressBar:true,timer:'2500',toast:true,position:'center',confirmButtonText:'Fermer',didOpen:(toast)=>{toast.addEventListener('mouseenter',Swal.stopTimer)
+toast.addEventListener('mouseleave',Swal.resumeTimer)},willClose:()=>{$(idreload).load(window.location.href+" "+idreload);},});}function sweet_ajax(url,text,idreload,formData){Swal.fire({html:text,showCancelButton:true,confirmButtonText:'Oui',cancelButtonText:'Non',toast:true,position:'center',}).then(function(result){if(result.isConfirmed){$.ajax({url:url,type:'post',data:formData,contentType:false,processData:false,success:function(result){const resultObj=JSON.parse(result);if(resultObj[0]==='error'){if(resultObj[1]==='Error CSRF Token'){sweet_simple_timer_reload_page(resultObj[1],resultObj[2]);}else{sweet_simple(resultObj[1],resultObj[2]);}}if(resultObj[0]==='not_login'){sweet_simple_timer_reload_page(resultObj[1],resultObj[2]);}if(resultObj[0]==='warning'){sweet_simple(resultObj[1],resultObj[2]);}if(resultObj[0]==='success'){sweet_simple_timer_reload_id(resultObj[1],resultObj[2],idreload)}},});}})}function sweet_supp(title,execute){Swal.fire({html:title,showCancelButton:true,confirmButtonText:'Oui',cancelButtonText:'Non',toast:true,position:'center',}).then(function(result){if(result.isConfirmed){execute.submit();}});}</script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>

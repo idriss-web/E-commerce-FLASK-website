@@ -1,0 +1,74 @@
+/* home.css */
+
+/* Navbar Styling */
+#logo {
+	height: 40px;
+	margin-right: 10px;
+  }
+  
+  .navbar {
+	border-bottom: 2px solid #e0e0e0;
+  }
+  
+  #searchBox {
+	width: 200px;
+	margin-right: 10px;
+  }
+  
+  #searchButton {
+	background-color: #007bff;
+	color: white;
+  }
+  
+  /* Category Sidebar */
+  .list-group-item {
+	font-size: 16px;
+  }
+  
+  .categoryLink {
+	text-decoration: none;
+	color: #007bff;
+	display: flex;
+	align-items: center;
+  }
+  
+  .categoryLink:hover {
+	text-decoration: underline;
+	color: #0056b3;
+  }
+  
+  .categoryLink i {
+	margin-right: 5px;
+  }
+  
+  /* Item Cards */
+  .card {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  .card-body {
+	text-align: center;
+  }
+  
+  .card-title {
+	font-size: 18px;
+	font-weight: bold;
+  }
+  
+  .card-text {
+	font-size: 16px;
+	color: #007bff;
+  }
+  

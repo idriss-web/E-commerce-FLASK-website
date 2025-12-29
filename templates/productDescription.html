@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Description du Produit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    html, body { margin:0; padding:0; height:100%; background:#f8f9fa; font-family:'Arial',sans-serif; }
+    body { padding-top:80px; overflow:hidden; }
+    .navbar-dark { background:#003366; }
+    #logo { height:50px; }
+    .btn-modern { background:#0066cc; color:#fff; border-radius:30px; padding:8px 20px; transition:.3s; }
+    .btn-modern:hover { background:#002e6b!important; }
+    .btn-return { background:#007bff; color:#fff; border-radius:30px; padding:8px 20px; transition:.3s; }
+    .btn-return:hover { background:#0056b3!important; }
+    #main-content { display:flex; height:calc(100vh - 80px); }
+    .left-pane, .right-pane { height:100%; overflow:auto; }
+    .left-pane {
+      flex:0 0 45%; background:#fff; display:flex; flex-direction:column;
+      box-shadow:2px 0 8px rgba(0,0,0,0.1); padding:1rem;
+    }
+
+    #productImage {
+  height: 300px;  
+  width: 100%;    
+  object-fit: contain;
+  border-radius: 8px;
+  display: block; 
+  margin-bottom: 1rem;
+  border-radius: 10000px !important;
+}
+
+.comments-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+  max-height: calc(100% - 310px); 
+}
+
+
+
+    .comments-container h5 {
+      margin:0 0 .5rem; padding:.5rem; text-align:center;
+      background:transparent; border-radius:6px; color:#155724;
+      font-weight: bolder;
+    }
+    .comment-box {
+      border:1px solid #ddd; border-radius:10px; padding:.75rem 1rem;
+      background:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.05); margin-bottom:1rem;
+    }
+    .comment-box strong { display:block; color:#003366; margin-bottom:.5rem; }
+    .comment-box p { margin:0 0 .5rem; color:#333; }
+    .note-box {
+      border:1px solid #28a745; color:#28a745;background-color: white !important;
+      border-radius:4px; padding:.5rem; margin-top:.5rem; background:#f1fdf4;
+    }
+    .right-pane { flex:1; padding:2rem; background:#f8f9fa; }
+    .card-title { font-size:2rem; font-weight:bold; margin-bottom:1rem; }
+    .card-price { color:#28a745; font-size:1.5rem; margin-bottom:1.5rem; }
+    .table td { padding:.5rem 1rem; }
+    .product-description { font-size:1rem; color:#333; margin-bottom:2rem; }
+    .star-rating { direction:rtl; display:inline-flex; }
+    .star-rating input { display:none; }
+    .star-rating label {
+      font-size:2rem; color:#ccc; cursor:pointer; padding:0 5px;
+    }
+    .star-rating input:checked ~ label,
+    .star-rating label:hover,
+    .star-rating label:hover ~ label { color:#f5b301; }
+    .modal-body { display:flex; flex-direction:column; height:300px; }
+    .modal-body textarea { resize:none; margin-top:auto; }
+    .btn-share { background:#28a745; color:#fff; border-radius:30px; padding:8px 20px; display:inline-flex; align-items:center; gap:.5rem; transition:.3s; }
+    .btn-share:hover { background:#1e7e34; }
+    .share-icon {
+      width:40px; height:40px; border-radius:50%; display:inline-flex;
+      align-items:center; justify-content:center; border:1px solid #ddd;
+      cursor:pointer; transition:.3s; font-size:1.2rem; color:#003366;
+    }
+    .share-icon:hover { background:#f1f1f1; }
+    .copy-btn {
+      background:#fff; border:1px solid #28a745; color:#28a745;
+      border-radius:30px; padding:8px 20px; cursor:pointer; transition:.3s;
+    }
+    .copy-btn:hover { background:#28a745; color:#fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    * Global */
+    body {
+      background-color: #e8f0fe !important;
+      color: #0a2342 !important;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+      margin: 0 !important;
+      padding-top: 80px !important;
+    }
+    /* Navbar */
+    .navbar-dark {
+      background-color: #1a3d7c !important;
+      box-shadow: none !important;
+    }
+    .navbar-dark .btn-outline-light {
+      border-color: transparent !important;
+    }
+    .navbar-dark .btn-outline-light:hover {
+      background-color: #2c4ea1 !important;
+    }
+    /* Main wrapper */
+    #main-content {
+      background-color: #ffffff !important;
+      padding: 1rem !important;
+      min-height: calc(100vh - 80px) !important;
+    }
+    /* Left & right panes */
+    .left-pane, .right-pane {
+      background-color: #fff !important;
+    }
+    .left-pane {
+      box-shadow: 2px 0 8px rgba(0,0,0,0.1) !important;
+    }
+    /* Buttons */
+    .btn-modern {
+      background-color: #0066cc !important;
+      color: #fff !important;
+      border-radius: 30px !important;
+      transition: background-color .3s ease !important;
+    }
+    .btn-modern:hover {
+      background-color: #002e6b !important;
+    }
+    .btn-return {
+      background-color: #1a73e8 !important;
+      color: #fff !important;
+      border-radius: 30px !important;
+      transition: background-color .3s ease !important;
+    }
+    .btn-return:hover {
+      background-color: #155abd !important;
+    }
+    .btn-share {
+      background-color: #1a73e8 !important;
+      color: #fff !important;
+      border-radius: 30px !important;
+      transition: background-color .3s ease !important;
+    }
+    .btn-share:hover {
+      background-color: #155abd !important;
+    }
+    /* Cards */
+    .comment-box, .note-box {
+      background-color: #f5faff !important;
+      border: 1px solid #d1d9e6 !important;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1) !important;
+    }
+    .comment-box strong {
+      color: #1a3d7c !important;
+    }
+    .note-box {
+      border-color: #1a73e8 !important;
+      color: #1a73e8 !important;
+      background-color: #f0f8ff !important;
+    }
+    /* Share icons */
+    .share-icon {
+      border-color: #d1d9e6 !important;
+      color: #1a3d7c !important;
+    }
+    .share-icon:hover {
+      background-color: #f0f4ff !important;
+    }
+    /* Copy button */
+    .copy-btn {
+      border: 1px solid #1a73e8 !important;
+      color: #1a73e8 !important;
+    }
+    .copy-btn:hover {
+      background-color: #1a73e8 !important;
+      color: #fff !important;
+    }
+    /* Table and text */
+    .card-title, .card-price {
+      color: #0a2342 !important;
+    }
+    .card-price {
+      color: #1a73e8 !important;
+    }
+    .product-description, .table td {
+      color: #0a2342 !important;
+    }
+    /* Scrollbars */
+    .comments-container {
+      background-color: #f5faff !important;
+    }
+  </style>
+</head>
+<body>
+  
+ 
+
+ <style>
+.user-photo-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  border: 2px solid white;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-photo-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: none;
+}
+.user-photo-btn i {
+  font-size: 24px;
+  color: #666;
+  line-height: 40px;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ url_for('root', sorting=None) }}">
+      <img src="{{ url_for('static', filename='images/logo.gif') }}" height="40" alt="Logo">
+    </a>
+
+    <button class="btn btn-outline-light me-3" id="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="d-flex flex-grow-1 justify-content-end align-items-center">
+      {% if not loggedIn %}
+        <a class="btn btn-light btn-modern me-2" href="/loginForm">
+          <i class="fas fa-sign-in-alt me-1"></i> Connexion
+        </a>
+      {% else %}
+        <div class="dropdown me-2">
+     
+          <button class="btn btn-light user-photo-btn" data-bs-toggle="dropdown">
+  {% if user_photo %}
+    <img src="{{ url_for('static', filename=user_photo) }}" alt="User Photo">
+  {% else %}
+    <i class="fas fa-user"></i>
+  {% endif %}
+</button>
+
+
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="/account/orders">Vos commandes</a></li>
+            <li><a class="dropdown-item" href="/account/profile">Votre profil</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/logout">Déconnexion</a></li>
+          </ul>
+        </div>
+      {% endif %}
+
+      <a href="/cart" class="btn btn-light me-2">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge bg-danger">{{ noOfItems }}</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <div id="main-content" class="container-fluid px-0">
+    <div class="left-pane">
+      <div class="text-center mb-4">
+        <img id="productImage" src="{{ url_for('static', filename='uploads/' + data[4]) }}" alt="{{ data[1] }}">
+      </div>
+      <div class="comments-container overflow-auto w-100 border rounded p-3 bg-light" style="max-height:60%;">
+        <h5>Commentaires</h5>
+        {% set messages = {
+          5: "Cet utilisateur a adoré ce produit. Il en est pleinement satisfait et le recommande vivement à tous.",
+          4: "Ce produit a beaucoup plu à l'utilisateur, qui le trouve de très bonne qualité. Il le recommande avec quelques réserves mineures.",
+          3: "L'utilisateur estime que le produit est acceptable dans l’ensemble. Il fonctionne comme prévu, mais certains aspects pourraient être améliorés.",
+          2: "L'utilisateur est plutôt insatisfait. Le produit n’a pas totalement répondu à ses attentes et présente plusieurs défauts selon lui.",
+          1: "L'utilisateur a été très déçu par ce produit. Il ne le recommande pas et considère que son achat n’en valait pas la peine."
+        } %}
+        {% for comment in comments %}
+          <div class="comment-box">
+            <strong>{{ comment['username'] }}</strong>
+            <p>{{ comment['commentaire'] }}</p>
+            
+            <div class="note-box">
+              {{ messages[comment['note']] }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="right-pane">
+      <h1 class="card-title">{{ data[1] }}</h1>
+      <p class="card-price">${{ data[2] }}</p>
+      <table class="table table-borderless mb-4">
+        <tr><td><strong>Nom</strong></td><td>{{ data[1] }}</td></tr>
+        <tr><td><strong>Prix</strong></td><td>${{ data[2] }}</td></tr>
+        <tr><td><strong>Stock</strong></td><td>{{ data[5] }}</td></tr>
+      </table>
+      <h2>Description du Produit</h2>
+      <p class="product-description">{{ data[3] }}</p>
+
+      {% if loggedIn %}
+        <button class="btn btn-modern me-2" data-bs-toggle="modal" data-bs-target="#ratingModal"><i class="fas fa-star me-1"></i>Noter</button>
+      {% endif %}
+      <button class="btn-share" data-bs-toggle="modal" data-bs-target="#shareModal"><i class="fas fa-share-alt"></i>Partager</button>
+
+<br><br>
+
+      {% if nom_vendeur %}
+  <div style="background-color: #f0f8ff; border: 1px solid #1e90ff; padding: 15px; border-radius: 8px; max-width: 320px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #003366;">
+    <p style="font-weight: 600; font-size: 1.1em; margin-bottom: 8px;">Vendeur : <span style="color: #1e90ff;">{{ nom_vendeur }}</span></p>
+    <a href="{{ url_for('messages') }}?email={{ session.email_vendeur | urlencode }}" 
+       style="display: inline-block; background-color: #1e90ff; color: #fff; text-decoration: none; padding: 10px 18px; border-radius: 6px; font-weight: 600; transition: background-color 0.3s ease;">
+      Contacter le vendeur
+    </a>
+  </div>
+{% else %}
+  <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #777; font-style: italic; padding: 10px; display: inline-block; background-color: #e6f0ff; border-radius: 6px; border: 1px solid #c0d4ff;">
+    Vendeur non disponible
+  </span>
+{% endif %}
+
+
+
+
+
+
+
+      <div class="d-grid gap-3 mt-4">
+
+
+        <a class="btn btn-modern" href="/addToCart?productId={{ request.args.get('productId') }}">
+  <i class="fas fa-shopping-cart me-1"></i>Ajouter au Panier
+</a>
+
+        <a class="btn btn-return" href="/"><i class="fas fa-arrow-left me-1"></i>Retour à l'accueil</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="ratingModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form action="{{ url_for('ajouter_avis') }}" method="post">
+          <input type="hidden" name="productId" value="{{ request.args.get('productId') }}">
+          <div class="modal-header">
+            <h5 class="modal-title">Votre avis</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-4" >
+              <label><strong>Votre note :</strong></label>
+              <div class="star-rating">
+                {% for i in range(5,0,-1) %}
+                  <input type="radio" id="star{{ i }}" name="note" value="{{ i }}" required>
+                  <label for="star{{ i }}"><i class="fas fa-star"></i></label>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="mb-3 mt-auto">
+              <label for="commentaireModal"><strong>Votre commentaire :</strong></label>
+              <textarea id="commentaireModal" name="commentaire" class="form-control" rows="4" required></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+            <button type="submit" class="btn btn-modern"><i class="fas fa-paper-plane me-1"></i>Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="shareModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Partager ce produit</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="mb-3">
+            <div>Partager sur …</div>
+            <div class="d-flex justify-content-center gap-3 mt-2">
+              <div class="share-icon" onclick="share('facebook')"><i class="fab fa-facebook-f"></i></div>
+              <div class="share-icon" onclick="share('twitter')"><i class="fab fa-twitter"></i></div>
+              <div class="share-icon" onclick="share('instagram')"><i class="fab fa-instagram"></i></div>
+              <div class="share-icon" onclick="share('whatsapp')"><i class="fab fa-whatsapp"></i></div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <strong>ou</strong>
+            <div class="mt-2">
+              <button class="copy-btn" onclick="copyLink()">Copier le lien</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function share(provider) {
+      const url = encodeURIComponent(window.location.href);
+      let shareUrl = '';
+      if (provider==='facebook') shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+      if (provider==='twitter') shareUrl = `https://twitter.com/intent/tweet?url=${url}`;
+      if (provider==='instagram') shareUrl = `https://www.instagram.com/?url=${url}`;
+      if (provider==='whatsapp') shareUrl = `https://api.whatsapp.com/send?text=${url}`;
+      window.open(shareUrl, '_blank','width=600,height=400');
+    }
+
+
+
+
+    function copyLink() {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const toastEl = document.getElementById('copyToast');
+      const toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    });
+
+    }
+    
+  </script>
+</body>
+</html>

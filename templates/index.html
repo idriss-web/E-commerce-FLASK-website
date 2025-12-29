@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DirectShop – Votre boutique en ligne</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #007bff;
+      --light: #f8f9fa;
+      --dark: #333;
+      --accent: #0056b3;
+      --text: #444;
+      --radius: 12px;
+      --gap: 1.5rem;
+      --transition: 0.3s ease;
+    }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      scroll-behavior: smooth;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .navbar-brand img { height: 40px; }
+    .nav-link {
+      color: var(--dark) !important;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+    .nav-link:hover { color: var(--primary) !important; }
+    .btn-continue-nav {
+      margin-left: 1rem;
+      border-radius: 50px;
+    }
+    .hero {
+      background: var(--primary);
+      color: white;
+      padding: 6rem 1rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .section-title {
+      margin: 4rem 0 2rem;
+      text-align: center;
+      position: relative;
+    }
+    .section-title h2 {
+      display: inline-block;
+      padding: 0 .5rem;
+      background: var(--light);
+      color: var(--primary);
+      position: relative;
+      z-index: 1;
+    }
+    .section-title::before {
+      content: '';
+      position: absolute;
+      top: 50%; left: 5%; right: 5%;
+      height: 2px;
+      background: var(--accent);
+      transform: translateY(-50%);
+      z-index: 0;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: var(--gap);
+      padding: 0 var(--gap) 2rem;
+    }
+    .product-card {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform var(--transition), box-shadow var(--transition);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .product-card i {
+      font-size: 3rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .product-card h5 {
+      font-size: 1.1rem;
+      color: var(--dark);
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--gap);
+      padding: 0 var(--gap) 2rem;
+    }
+    .feature {
+      flex: 1 1 200px;
+      text-align: center;
+      padding: 1rem;
+      transition: transform var(--transition);
+    }
+    .feature:hover { transform: scale(1.05); }
+    .feature i {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: .5rem;
+    }
+
+    footer {
+      background: var(--dark);
+      color: #bbb;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+
+  <header class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="{{ url_for('static', filename='logo.gif') }}" alt="DirectShop">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Nos produits</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Pourquoi nous</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Qui sommes-nous</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a href="#" id="goToShop" class="btn btn-primary btn-continue-nav">
+              <i class="fas fa-arrow-right me-1"></i> Continuer vers DirectShop
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1><i class="fas fa-shopping-bag"></i> Bienvenue chez DirectShop</h1>
+      <p>Votre boutique en ligne 24/7 – qualité, rapidité et service irréprochable.</p>
+      <a href="#products" class="btn btn-light btn-lg"><i class="fas fa-eye me-1"></i> Explorer les catégories</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="section-title"><h2>Nos catégories</h2></div>
+    <div class="products">
+      <div class="product-card">
+        <i class="fas fa-tv"></i>
+        <h5>Électronique</h5>
+      </div>
+      <div class="product-card">
+        <i class="fas fa-couch"></i>
+        <h5>Maison</h5>
+      </div>
+      <div class="product-card">
+        <i class="fas fa-tshirt"></i>
+        <h5>Mode</h5>
+      </div>
+      <div class="product-card">
+        <i class="fas fa-heart"></i>
+        <h5>Beauté</h5>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="section-title"><h2>Pourquoi nous</h2></div>
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-truck"></i>
+        <h6>Livraison rapide</h6>
+        <p>Partout au pays en 48h.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-thumbs-up"></i>
+        <h6>Qualité garantie</h6>
+        <p>Produits testés et approuvés.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-shield-alt"></i>
+        <h6>Paiement sécurisé</h6>
+        <p>Transactions sûres à 100%.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="section-title"><h2>Qui sommes-nous</h2></div>
+    <div class="container">
+      <p>DirectShop est une plateforme e-commerce fondée sur la passion pour la simplicité, la qualité, et le service client. Nous mettons à votre disposition un large choix de produits soigneusement sélectionnés.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="section-title"><h2>Contact</h2></div>
+    <div class="container">
+      <p>Besoin d’aide ou de plus d’informations ? Écrivez-nous à <a href="mailto:contact@directshop.com">contact@directshop.com</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 DirectShop. Tous droits réservés.</p>
+    <p><a href="#home"><i class="fas fa-arrow-up me-1"></i> Haut de page</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('goToShop').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = 'http://127.0.0.1:5000';
+    });
+  </script>
+</body>
+</html>

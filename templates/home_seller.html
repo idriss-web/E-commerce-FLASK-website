@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil du vendeur</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+      padding-top: 80px;
+    }
+    .navbar-dark {
+      background-color: #003366;
+    }
+    #logo {
+      height: 50px;
+    }
+    .collection-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #003366;
+      margin: 2rem 0;
+    }
+    .collection-title i {
+      margin-right: 10px;
+    }
+    .table-products {
+      background-color: white;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .table-products th,
+    .table-products td {
+      vertical-align: middle;
+      text-align: center;
+    }
+    .product-image {
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid rgb(22, 22, 143);
+    }
+    .btn-outline-action {
+      border: 1px solid #003366;
+      color: #003366;
+      background: none;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.9rem;
+    }
+    .btn-outline-action:hover {
+      background-color: #003366;
+      color: white;
+    }
+    .btn-modern {
+      background-color: #0066cc;
+      color: white;
+      border-radius: 30px;
+      padding: 8px 20px;
+      transition: all 0.3s ease;
+    }
+    .btn-modern:hover {
+      background-color: rgb(0, 36, 196);
+      color: white;
+    }
+    .modal-content {
+      border-radius: 10px;
+    }
+    hr {
+      border-top: 2px solid #003366;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand me-2" href="/">
+      <img id="logo" src="{{ url_for('static', filename='images/logo.gif') }}" alt="Logo">
+    </a>
+
+    <div class="d-flex align-items-center ms-auto">
+
+      <a href="/messages" class="btn btn-light btn-messages me-2 position-relative" style="width: 40px; height: 40px; border-radius: 50%;">
+        <i class="fas fa-comment-dots fa-lg"></i>
+        {% if noOfMessages and noOfMessages > 0 %}
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {{ noOfMessages }}
+            <span class="visually-hidden">messages non lus</span>
+          </span>
+        {% endif %}
+      </a>
+
+      {% if loggedIn %}
+        <div class="dropdown me-2">
+          <button class="btn btn-light rounded-pill p-0" style="width: 40px; height: 40px; overflow: hidden;" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Menu utilisateur">
+            {% if user_photo %}
+              <img src="{{ user_photo }}" alt="Photo de profil" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%; border: 2px solid #003366;">
+            {% else %}
+              <i class="fas fa-user fa-lg"></i>
+            {% endif %}
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="/account/orders">Vos commandes</a></li>
+            <li><a class="dropdown-item" href="/account/profile">Votre profil</a></li>
+            <li><a class="dropdown-item" href="/">Aller vers le mode acheteur</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/logout">Déconnexion</a></li>
+          </ul>
+        </div>
+
+        <button class="btn btn-modern" data-bs-toggle="modal" data-bs-target="#addProductModal">
+          <i class="fas fa-plus"></i> Ajouter un produit
+        </button>
+      {% endif %}
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="collection-title">
+    <i class="fas fa-box-open"></i> Ma Collection
+  </div>
+
+  <div class="table-responsive rounded">
+    <table class="table table-bordered table-products shadow-sm">
+      <thead style="background-color: #e6f0ff;">
+        <tr>
+          <th>Produit</th>
+          <th>Nom</th>
+          <th>Prix</th>
+          <th>Stock</th>
+          <th>Catégorie</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for product in products %}
+        <tr>
+          <td>
+            <img src="{{ url_for('static', filename='uploads/' + product.image) }}" class="product-image" alt="Produit">
+          </td>
+          <td>{{ product.name }}</td>
+          <td>${{ product.price }}</td>
+          <td>{{ product.stock }}</td>
+          <td>{{ product.category }}</td>
+          <td>
+            <button class="btn btn-outline-action me-2" data-bs-toggle="modal" data-bs-target="#editProductModal{{ product.productId }}">
+              <i class="fas fa-edit"></i> Modifier
+            </button>
+            <a href="/deleteProduct/{{ product.productId }}" class="btn btn-outline-action" onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce produit ?')">
+              <i class="fas fa-trash-alt"></i> Supprimer
+            </a>
+          </td>
+        </tr>
+
+        <div class="modal fade" id="editProductModal{{ product.productId }}" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <form action="/editProduct/{{ product.productId }}" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modifier le produit</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3"><label class="form-label">Nom</label><input type="text" name="name" class="form-control" value="{{ product.name }}" required></div>
+                  <div class="mb-3"><label class="form-label">Prix</label><input type="number" name="price" class="form-control" value="{{ product.price }}" required></div>
+                  <div class="mb-3"><label class="form-label">Stock</label><input type="number" name="stock" class="form-control" value="{{ product.stock }}" required></div>
+                  <div class="mb-3">
+                    <label class="form-label">Catégorie</label>
+                    <select name="categoryId" class="form-select" required>
+                      {% for category in categories %}
+                        <option value="{{ category[0] }}" {% if product.category == category[1] %}selected{% endif %}>{{ category[1] }}</option>
+                      {% endfor %}
+                    </select>
+                  </div>
+                  <div class="mb-3"><label class="form-label">Nouvelle image (facultatif)</label><input type="file" name="image" class="form-control"></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-primary">Sauvegarder</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal fade" id="addProductModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="/addProduct" method="post" enctype="multipart/form-data">
+        <div class="modal-header">
+          <h5 class="modal-title">Ajouter un produit</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3"><label class="form-label">Nom</label><input type="text" name="name" class="form-control" required></div>
+          <div class="mb-3"><label class="form-label">Prix</label><input type="number" name="price" class="form-control" required></div>
+          <div class="mb-3"><label class="form-label">Description</label><textarea name="description" class="form-control" required></textarea></div>
+          <div class="mb-3"><label class="form-label">Image</label><input type="file" name="image" class="form-control" required></div>
+          <div class="mb-3">
+            <label class="form-label">Catégorie</label>
+            <select name="categoryId" class="form-select" required>
+              {% for category in categories %}
+                <option value="{{ category[0] }}">{{ category[1] }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="mb-3"><label class="form-label">Stock</label><input type="number" name="stock" class="form-control" required></div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">Ajouter</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  margin: 0; padding: 0;
+}
+#messagingApp {
+  height: calc(100vh - 56px);
+  overflow: hidden;
+  display: flex;
+}
+/* Sidebar */
+.sidebar {
+  width: 280px;
+  overflow-y: auto;
+}
+.user-entry {
+  display: flex; align-items: center;
+  padding: .75rem 1rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background .2s;
+}
+.user-entry:hover {
+  background: #f0f0f0;
+}
+.user-entry.active {
+  background: #d9e6f2;
+}
+.user-entry .fa-user-circle {
+  font-size: 1.5rem; margin-right: .75rem; color: #555;
+}
+/* Chat panel */
+.chat-panel {
+  flex: 1; display: flex; flex-direction: column;
+}
+.chat-header {
+  height: 56px;
+  display: flex; align-items: center;
+  font-weight: 500;
+}
+.chat-messages {
+  flex: 1; overflow-y: auto;
+}
+.message {
+  margin-bottom: .75rem;
+  padding: .5rem .75rem;
+  border-radius: 1rem;
+  max-width: 70%;
+  position: relative;
+}
+.message.sent {
+  background: #dcf8c6;
+  margin-left: auto;
+  border-bottom-right-radius: 0;
+}
+.message.received {
+  background: #fff;
+  margin-right: auto;
+  border-bottom-left-radius: 0;
+}
+.message img {
+  max-width: 100%;
+  border-radius: .5rem;
+}
+.message audio {
+  width: 100%;
+  margin-bottom: .5rem;
+}
+.message .small {
+  font-size: .7rem;
+  color: #666;
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+}
+/* Input row */
+.chat-input textarea {
+  resize: none;
+  height: 40px;
+  border-radius: 20px;
+}
+.chat-input .btn {
+  width: 40px; height: 40px;
+  padding: 0;
+  border-radius: 50%;
+}
+.recording {
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%,100% { box-shadow: 0 0 5px #ff4d4d; }
+  50% { box-shadow: 0 0 15px #ff4d4d; }
+}
