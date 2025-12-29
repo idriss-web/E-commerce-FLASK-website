@@ -1,4 +1,24 @@
 E-Commerce App README
+## Video for demonstration ( with audio )
+
+[Voir la vidéo explicative](screenshots/Vidéo%20explicative.mp4)
+
+---
+
+## Screenshots and diagrams
+
+### Diagramme de classes
+![Diagramme de classes](screenshots/class_diagram.png)
+
+### Home
+![Home](screenshots/home.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### Home
+![Page d'accueil](screenshots/Page%20acceuil.png)
+
 
 Overview:
 This is a basic e-commerce platform built using Flask, HTML, CSS, and JavaScript. The app allows users to buy and sell products, send messages, and report inappropriate users or content. The goal of the platform is to provide a simple and effective marketplace where users can engage with each other and manage their transactions.
